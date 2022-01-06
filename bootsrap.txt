@@ -1,0 +1,14 @@
+Bootstrap-4
+
+class="bg-info" : color code
+" bg-secondary : grey color
+" bg-white : white color
+class="text-white" : white text color
+class="p-3" : padding 
+" my-auto : veticle center alignment
+" ml-auto : margin-left auto alignment
+" img-fluid : align-for all pixels
+" align-items-center : align items vertically center 
+" text-center : text align center
+" h-75, h-25, h-100, h-50, h-auto : adjust the size of the height
+" fa-3x : change icon size - font-awesome

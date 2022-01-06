@@ -1,0 +1,11 @@
+html{
+    scroll-behavior: smooth;
+}
+
+h4, p{
+    text-align: center;
+}
+.col-12{
+    padding-top: 10px;
+
+}
