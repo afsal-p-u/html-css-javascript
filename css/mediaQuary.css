@@ -1,0 +1,106 @@
+@media (max-width:770px){
+    .sidebar{
+       display:none;
+    }
+    .navbar .right{
+        padding-right:.1rem;
+    }
+    .navbar .right nav ul li{
+        display:inline-block;
+        padding:0 .6rem;
+    }
+    .navbar .left .logo{
+        margin-left: 4rem;
+        width:2rem;
+    }
+    .template-grid{
+        margin-left: 0;
+    }
+    .navbar{
+        min-width:100%;
+    }
+
+
+    .navbar .center{
+       width:5rem;
+    }
+    .navbar .center .left1{
+        width:10rem;
+        background: transparent;
+        border:none;
+    }
+    .navbar .center .left1 .left11{
+        width:50%;
+    }
+    .navbar .center .left1 .left11 form input{
+        width:0;
+        height:2.5rem;
+        background-color:transparent;
+    }
+    .left11 input[type="search"]:-ms-input-placeholder{
+        padding-left: 5rem;
+    }
+    .navbar .center .left1 .left12{
+        width:10%;
+    }
+    .navbar .center .left1 .left12 i{
+        font-size: 1.4rem;
+        padding-left: 1.3rem;
+    }
+    .navbar .center .right1{
+        background-color:transparent;
+    }
+    .navbar .center .right1 i{
+        padding-top:.5rem;
+        padding-left: 2.1rem;;
+    }
+}
+
+@media (max-width:991px){
+
+    .navbar .right{
+        padding-right:.1rem;
+    }
+    .navbar .right nav ul li{
+        display:inline-block;
+        padding:0 .6rem;
+    }
+
+    .template-grid{
+        margin-left: 0;
+    }
+    .navbar{
+        min-width:100%;
+    }
+    .navbar .center{
+       width:5rem;
+    }
+    .navbar .center .left1{
+        width:10rem;
+        background: transparent;
+        border:none;
+    }
+    .navbar .center .left1 .left11{
+        width:50%;
+    }
+    .navbar .center .left1 .left11 form input{
+        width:0;
+        height:2.5rem;
+        background-color:transparent;
+    }
+    .navbar .center .left1 .left12{
+        width:10%;
+    }
+    .navbar .center .left1 .left12 i{
+        font-size: 1.4rem;
+        padding-left: 1.3rem;
+    }
+    .navbar .center .right1{
+        background-color:transparent;
+    }
+    .navbar .center .right1 i{
+        padding-top:.5rem;
+        padding-left: 2.1rem;;
+    }
+    
+}
