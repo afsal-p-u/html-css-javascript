@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: none;
+    font-family: sans-serif;
+}
+body{
+    background: rgb(17, 22, 49);
+}
+.container{
+    width: 350px;
+    height: 70vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(16, 18, 26);
+    box-shadow: 0 0 3px 3px rgba(26, 21, 21, .575);
+}
+.container .screen-area{
+    width: 90%;
+    height: 13vh;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(172, 172, 151);
+}
+.container .screen-area .screen-one{
+    min-height: 7vh;
+    overflow: hidden;
+}
+.container .screen-area .screen-one h2{
+    text-align: end;
+    padding: 3px 10px;
+    font-size: 17px;
+    color: rgba(34, 27, 27, 0.801);
+}
+.container .screen-area .screen-two h1{
+    padding: 10px 10px;
+    font-size: 24px;
+}
+
+.container .control-buttons{
+    display: flex;
+}
+.container .control-buttons .c-button{
+    height: 6vh;
+    width: 55px;
+    background-color: red;
+    margin: 0 10px  0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 19px;border-radius: 6px;
+    font-weight: 500;
+}
+.container .control-buttons .c-button:hover{
+    color: #fff;
+    font-weight: 600;
+}
+.container .buttons{
+    width: 90%;
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    border: none;
+    outline: none;
+}
+.container .buttons .btn{
+    height: 6vh;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: 600;
+    border-radius: 6px;
+}
+.container .buttons .btn:hover{
+    background-color: #fff;
+    font-size: 20px;
+}

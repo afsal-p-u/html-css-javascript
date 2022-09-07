@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=
+    , initial-scale=1.0"> -->
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Calculator</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="screen-area">
+            <div class="screen-one">
+                <h2 id="string-format">0</h2>
+            </div>
+            <div class="screen-two">
+                <h1 id="output-format">0</h1>
+            </div>
+        </div>
+
+        <div class="control-buttons">
+            <div class="c-button clear-button" onclick="clearPanel()">Clear</div>
+            <div class="c-button delete-button" onclick="back()">Del</div>
+        </div>
+
+        <div class="buttons">
+            <div class="btn" onclick="input('1')">1</div>
+            <div class="btn" onclick="input('2')">2</div>
+            <div class="btn" onclick="input('3')">3</div>
+            <div class="btn" onclick="input('*')">x</div>
+            <div class="btn" onclick="input('4')">4</div>
+            <div class="btn" onclick="input('5')">5</div>
+            <div class="btn" onclick="input('6')">6</div>
+            <div class="btn" onclick="input('/')">/</div>
+            <div class="btn" onclick="input('7')">7</div>
+            <div class="btn" onclick="input('8')">8</div>
+            <div class="btn" onclick="input('9')">9</div>
+            <div class="btn" onclick="input('+')">+</div>
+            <div class="btn" onclick="input('.')">.</div>
+            <div class="btn" onclick="input('0')">0</div>
+            <div class="btn" onclick="resultValue()">=</div>
+            <div class="btn" onclick="input('-')">-</div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
